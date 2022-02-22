@@ -1,0 +1,22 @@
+.places__items {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .places__items {
+    row-gap: 72px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__items {
+    row-gap: 50px;
+  }
+}

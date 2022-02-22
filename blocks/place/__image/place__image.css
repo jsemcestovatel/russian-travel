@@ -1,0 +1,5 @@
+.place__image {
+  display: block;
+  grid-area: image;
+  max-width: 100%;
+}

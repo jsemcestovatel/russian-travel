@@ -1,0 +1,36 @@
+/* Общие стили страницы*/
+:root {
+  /* переменные цвета */
+  --color-text: #fff;
+  --color-url: #aaa;
+  --color-back: #2a2c2f;
+  background-color: var(--color-back);
+}
+
+.page {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* сглаживание, масштаб и рендеринг шрифта */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  /* минимальная и максимальная ширина страницы */
+  min-width: 320px;
+  max-width: 1280px;
+  width: 100%;
+  /* центрирование */
+  margin: 0 auto;
+  padding: 28px 0 24px;
+  color: var(--color-text);
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    padding-top: 16px;
+  }
+}
