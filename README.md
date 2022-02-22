@@ -18,4 +18,4 @@
 ```
 
 ## GitHub Pages
-* смутно понимаю
+* https://jsemcestovatel.github.io/russian-travel/index.html
