@@ -1,11 +1,17 @@
 .places__items {
+<<<<<<< HEAD
   list-style: none;
   margin: 0;
   padding: 0;
+=======
+>>>>>>> origin
   display: flex;
   flex-direction: column;
   row-gap: 80px;
   flex-shrink: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 1023px) {
